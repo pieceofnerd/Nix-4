@@ -1,0 +1,6 @@
+*.idea/
+/ant/build
+/compile/build
+*.iml
+/maven/target
+
