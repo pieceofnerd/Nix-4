@@ -1,4 +1,5 @@
 @echo off
+call setant.bat
 echo ANT BUILDING:
 echo Main-Class: com.metanit.Main>MANIFEST.MF
 call ant clean

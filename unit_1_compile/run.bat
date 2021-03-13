@@ -4,8 +4,9 @@ echo There are 3 classes: Main(App), Style and Database and two libraries ^for s
 cd compile
 call run_compile.bat
 cd ..
-cd maven
-call run_maven.bat
-cd ..
 cd ant
 call run_ant.bat
+cd ..
+cd maven
+call run_maven.bat
+
