@@ -35,7 +35,7 @@ class DigitalMatcherUtil {
         int sum = 0;
         boolean isDigitInRow = false;
         String string = AlgorithmicTask.userInput();
-        Pattern pattern = Pattern.compile("\\d+");
+        Pattern pattern = Pattern.compile("\\d");
         Matcher matcher = pattern.matcher(string);
 
         while (matcher.find()) {
