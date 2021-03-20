@@ -1,2 +1,7 @@
 *.idea/
 *.iml
+/application/target/
+/calculator/target/
+/consolehelper/target/
+/target/
+
