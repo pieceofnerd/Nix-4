@@ -1,0 +1,7 @@
+/.idea/
+/Level_1/target/
+/Level_1/Level_1.iml
+*.iml
+/Level_2/target/
+*./target
+/Level_3/target/
