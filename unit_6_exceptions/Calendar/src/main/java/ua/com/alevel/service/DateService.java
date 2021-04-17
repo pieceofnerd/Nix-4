@@ -1,4 +1,4 @@
-package ua.com.alevel.persistence.service;
+package ua.com.alevel.service;
 
 public interface DateService {
     void createDate(String date);

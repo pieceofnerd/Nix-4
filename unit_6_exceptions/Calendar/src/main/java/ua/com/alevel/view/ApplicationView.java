@@ -33,10 +33,10 @@ public class ApplicationView {
                     differenceBetweenDatesController.differenceBetweenDates();
                     break;
                 case 2:
-                    changeTimeInDateController.changeTime("Add time to date", 1);
+                    changeTimeInDateController.changeTime(1);
                     break;
                 case 3:
-                    changeTimeInDateController.changeTime("Subtract time from date", 2);
+                    changeTimeInDateController.changeTime(2);
                     break;
                 case 4: sortingDateController.sortDate();
             }

@@ -5,6 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public  abstract class BaseEntity {
+public abstract class BaseEntity {
     private String id;
 }

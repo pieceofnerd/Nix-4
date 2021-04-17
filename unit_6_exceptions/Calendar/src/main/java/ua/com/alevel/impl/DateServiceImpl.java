@@ -1,4 +1,4 @@
-package ua.com.alevel.persistence.impl;
+package ua.com.alevel.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +17,19 @@ public class DateServiceImpl implements DateService {
     private final static DBInMemory db = DBInMemory.getInstance();
 
     @Override
+    public String inputDate() {
+        System.out.print("Please, enter a date: ");
+        String date = ConsoleUtil.readFromConsole();
+        boolean isDateFormatCorrect = DateUtil.checkDateFormat(date);
+        if (!isDateFormatCorrect) {
+            logger.error("Date format was set incorrect");
+            System.out.println("\nYou entered date in incorrect format. Please, try again\n");
+            return inputDate();
+        }
+        return date;
+    }
+
+    @Override
     public void createDate(String dateInStringFormat) {
         int day;
         int month;
@@ -27,7 +40,7 @@ public class DateServiceImpl implements DateService {
 
         int format = DateUtil.getFormat(dateInStringFormat);
         String[] parts = divideDateOnParts(dateInStringFormat);
-        parts = replaceEmptinessByDefaultValue(parts);
+        replaceEmptinessByDefaultValue(parts);
         String[] dateFormat = makeDatePartsCorrectFormat(parts, format);
         switch (format) {
             case 1:
@@ -103,19 +116,6 @@ public class DateServiceImpl implements DateService {
     }
 
     @Override
-    public String inputDate() {
-        System.out.print("Please, enter a date: ");
-        String date = ConsoleUtil.readFromConsole();
-        boolean isDateFormatCorrect = DateUtil.checkDateFormat(date);
-        if (!isDateFormatCorrect) {
-            logger.error("Date format was set incorrect");
-            System.out.println("\nYou entered date in incorrect format. Please, try again\n");
-            return inputDate();
-        }
-        return date;
-    }
-
-    @Override
     public int selectDateFormat() {
         System.out.print("Please, enter a date format: ");
         String output = ConsoleUtil.readFromConsole();
@@ -148,7 +148,7 @@ public class DateServiceImpl implements DateService {
             case 3:
             case 4: {
                 String[] dateFormat = makeDatePartsCorrectFormat(parts, format);
-                if (format > 2 && format < 7 && format != 6) {
+                if (format > 2 && format < 6) {
                     dateFormat[1] = String.valueOf(convertMonthFromStringToInteger(dateFormat[1]));
                 }
                 boolean isDayCorrect = checkDateFormat.checkDay(dateFormat[0], dateFormat[1], dateFormat[2]);
@@ -166,7 +166,7 @@ public class DateServiceImpl implements DateService {
             case 6: {
 
                 String[] dateFormat = makeDatePartsCorrectFormat(parts, format);
-                if (format > 2 && format < 7 && format != 6) {
+                if (format > 2 && format < 6) {
                     dateFormat[0] = String.valueOf(convertMonthFromStringToInteger(dateFormat[0]));
                 }
 
@@ -262,8 +262,7 @@ public class DateServiceImpl implements DateService {
     private String[] divideDateOnParts(String date) {
         String[] prepareParts = date.split("[/:\\s+]");
         if (date.equals("//")) {
-            String[] parts = {"", "", ""};
-            return parts;
+            return new String[]{"", "", ""};
         }
         String[] parts = new String[prepareParts.length + 1];
         if (date.charAt(date.length() - 1) == '/') {
@@ -278,7 +277,7 @@ public class DateServiceImpl implements DateService {
         return initialiseDateTime(parts, option);
     }
 
-    private String[] replaceEmptinessByDefaultValue(String[] parts) {
+    private void replaceEmptinessByDefaultValue(String[] parts) {
 
         if (parts[0].isEmpty()) {
             parts[0] = "1";
@@ -289,7 +288,6 @@ public class DateServiceImpl implements DateService {
         if (parts[2].isEmpty()) {
             parts[2] = "2021";
         }
-        return parts;
     }
 
     private String convertYearToFullFormat(String year) {

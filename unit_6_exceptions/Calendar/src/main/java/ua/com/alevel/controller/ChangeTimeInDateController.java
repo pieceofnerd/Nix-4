@@ -32,10 +32,9 @@ public class ChangeTimeInDateController {
         calendarService = new CalendarServiceImpl();
     }
 
-    public void changeTime(String message, int function) {
+    public void changeTime(int function) {
         dateService.dateFormatMenu();
         int optionDataFormatTypeMenu = menuService.chooseOption(DATA_FORMAT_CHOOSE_OPTION);
-
         ConsoleUtil.takeDatesFromUser(DATE_QUANTITY, optionDataFormatTypeMenu);
 
         menuService.calendarTypeMenu();
@@ -58,6 +57,6 @@ public class ChangeTimeInDateController {
         Optional<DateFormatType> dateFormatType = Arrays.stream(DateFormatType.values())
                 .filter(d -> d.getDateFormat() == optionDataFormatTypeMenu)
                 .findFirst();
-        menuService.output(changeTimeInDate.toString(dateFormatType.get()));
+        dateFormatType.ifPresent(type -> menuService.output(changeTimeInDate.toString(type)));
     }
 }

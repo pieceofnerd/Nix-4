@@ -10,17 +10,17 @@ public class ConvertTimeUtil {
 
     public static long convertMillisecondsToSeconds(BigInteger milliseconds) {
         long sec = Long.parseLong(String.valueOf(milliseconds.divide(new BigInteger(String.valueOf(1000)))));
-        return sec % 60;
+        return sec % SECONDS;
     }
 
     public static long convertMillisecondsToMinutes(BigInteger milliseconds) {
-        Long minutes = Long.parseLong(String.valueOf(milliseconds.divide(new BigInteger(String.valueOf(60_000)))));
-        return minutes % 60;
+        long minutes = Long.parseLong(String.valueOf(milliseconds.divide(new BigInteger(String.valueOf(60_000)))));
+        return minutes % MINUTES;
     }
 
     public static long convertMillisecondsToHour(BigInteger milliseconds) {
-        Long hours = Long.parseLong(String.valueOf(milliseconds.divide(new BigInteger(String.valueOf(36_00_000)))));
-        return hours % 24;
+        long hours = Long.parseLong(String.valueOf(milliseconds.divide(new BigInteger(String.valueOf(36_00_000)))));
+        return hours % HOURS_IN_DAY;
     }
 
     public static int convertMillisecondsToYear(BigInteger milliseconds) {
@@ -71,11 +71,11 @@ public class ConvertTimeUtil {
     }
 
     public static long convertMillisecondsToDays(BigInteger milliseconds) {
-        return (long) (Long.parseLong(String.valueOf(milliseconds)) / 864_000_00);
+        return Long.parseLong(String.valueOf(milliseconds)) / 864_000_00;
     }
 
     public static int convertMillisecondsToDays(BigInteger milliseconds, int month, int year) {
-        long days = (long) (Long.parseLong(String.valueOf(milliseconds)) / 864_000_00);
+        long days = Long.parseLong(String.valueOf(milliseconds)) / 864_000_00;
         int numberOfDay = 0;
         if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
             numberOfDay = (int) (days % 32);
@@ -86,16 +86,14 @@ public class ConvertTimeUtil {
                 numberOfDay = (int) (days % 29);
             } else {
                 numberOfDay = (int) (days % 30);
-
             }
-
         }
         return numberOfDay;
     }
 
     public static long convertYearToMilliseconds(int year) {
         int yearStatus = DateUtil.getLeapYear(year);
-        return (long) (convertDayToMilliseconds(yearStatus) * year);
+        return convertDayToMilliseconds(yearStatus) * year;
     }
 
     public static long convertMonthToMilliseconds(int numberOfMonth, int year) {
@@ -108,11 +106,11 @@ public class ConvertTimeUtil {
     }
 
     public static long convertDayToMilliseconds(int day) {
-        return (long) (convertCHourToMilliseconds(day) * HOURS_IN_DAY);
+        return convertCHourToMilliseconds(day) * HOURS_IN_DAY;
     }
 
     public static long convertCHourToMilliseconds(long hour) {
-        return (long) (convertMinuteToMilliseconds(hour) * MINUTES);
+        return convertMinuteToMilliseconds(hour) * MINUTES;
     }
 
     public static long convertMinuteToMilliseconds(long minute) {
@@ -137,12 +135,12 @@ public class ConvertTimeUtil {
         return seconds;
     }
 
-    public static long convertYearsToSeconds(int year,int dayInVariable) {
-        return dayInVariable * DateUtil.getLeapYear(year)*year;
+    public static long convertYearsToSeconds(int year, int dayInVariable) {
+        return dayInVariable * DateUtil.getLeapYear(year) * year;
     }
 
     public static long convertSecondToMilliseconds(long second) {
-        return (long) (second * 1000);
+        return  (second * 1000);
     }
 
 

@@ -12,6 +12,6 @@ public enum DateFormatType {
     private final int dateFormat;
 
     DateFormatType(int i) {
-        dateFormat=i;
+        dateFormat = i;
     }
 }

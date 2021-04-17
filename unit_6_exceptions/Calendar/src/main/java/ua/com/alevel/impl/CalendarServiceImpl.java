@@ -1,4 +1,4 @@
-package ua.com.alevel.persistence.impl;
+package ua.com.alevel.impl;
 
 import ua.com.alevel.persistence.entity.Date;
 import ua.com.alevel.persistence.type.CalendarType;
@@ -34,7 +34,7 @@ public class CalendarServiceImpl implements CalendarService {
         long second = firstDate.getSecond() - secondDate.getSecond();
 
         interval = new Date(day, month, year, hour, minute, second);
-        interval = dateCorrect(interval);
+        dateCorrect(interval);
         if (interval.getYear() < 0) {
             System.out.println("Difference cannot be negative");
             return new BigInteger("-1");
@@ -55,7 +55,7 @@ public class CalendarServiceImpl implements CalendarService {
                 return BigInteger.valueOf(interval.getSecond() + interval.getMinute() * 60 + interval.getHour() * 3600 + interval.getDay() * 86400 +
                         ConvertTimeUtil.convertMonth(interval.getMonth(), interval.getYear(), 86400) + ConvertTimeUtil.convertYearsToSeconds(year, 86400));
             case MINUTE:
-                return BigInteger.valueOf(interval.getSecond() / 60 + interval.getMinute() + interval.getHour()*60 + interval.getDay() * 1440 +
+                return BigInteger.valueOf(interval.getSecond() / 60 + interval.getMinute() + interval.getHour() * 60 + interval.getDay() * 1440 +
                         ConvertTimeUtil.convertMonth(interval.getMonth(), interval.getYear(), 1440) + ConvertTimeUtil.convertYearsToSeconds(year, 1440));
             case HOUR:
                 return BigInteger.valueOf(interval.getHour() + interval.getDay() * 24 + ConvertTimeUtil.convertMonth(interval.getMonth(), interval.getYear(), 24) +
@@ -172,7 +172,7 @@ public class CalendarServiceImpl implements CalendarService {
 
         }
         checkDate(date);
-        date = dateCorrect(date);
+        dateCorrect(date);
         if (date.getYear() < 0) {
             date = null;
         }
@@ -192,7 +192,7 @@ public class CalendarServiceImpl implements CalendarService {
         }
     }
 
-    private Date dateCorrect(Date date) {
+    private void dateCorrect(Date date) {
 
         if (date.getSecond() < 0) {
             long minutesInSeconds = ((date.getMinute() * 60) + date.getSecond());
@@ -258,7 +258,6 @@ public class CalendarServiceImpl implements CalendarService {
         if (date.getYear() < 0) {
             System.out.println("Year cannot be less than 0. Your request was incorrect");
         }
-        return date;
     }
 
     private void checkDate(Date date) {

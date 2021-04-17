@@ -3,13 +3,11 @@ package ua.com.alevel.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ua.com.alevel.impl.DateServiceImpl;
-import ua.com.alevel.persistence.entity.Date;
 import ua.com.alevel.service.DateService;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.List;
 
 public class ConsoleUtil {
     private final static Logger logger = LoggerFactory.getLogger(ConsoleUtil.class.getName());
@@ -67,7 +65,7 @@ public class ConsoleUtil {
         for (int i = 0; i < quantity; i++) {
             while (!isDateFormatCorrect) {
                 dateInput = dateService.inputDate();
-                isDateFormatCorrect = dateService.isDateFormatRight(dateInput,format);
+                isDateFormatCorrect = dateService.isDateFormatRight(dateInput, format);
             }
             isDateFormatCorrect = false;
             dateService.createDate(dateInput);

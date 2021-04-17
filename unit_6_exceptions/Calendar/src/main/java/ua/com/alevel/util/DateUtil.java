@@ -22,9 +22,8 @@ public class DateUtil {
 
     public static boolean checkDateFormat(String date) {
         List<Matcher> matchers = matchers(date);
-        boolean isDateFormatCorrect = matchers.stream()
+        return matchers.stream()
                 .anyMatch(Matcher::matches);
-        return isDateFormatCorrect;
     }
 
     private static List<Matcher> matchers(String date) {
@@ -64,7 +63,7 @@ public class DateUtil {
     }
 
     public static int getDaysInMonth(int numberOfMonth, int year) {
-        int sizeOfMonth = 0;
+        int sizeOfMonth;
         if (numberOfMonth == 2) {
             if (year % 4 == 0) {
                 if (year % 100 == 0 && year % 400 != 0) {

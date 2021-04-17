@@ -1,4 +1,4 @@
-package ua.com.alevel.persistence.impl;
+package ua.com.alevel.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
