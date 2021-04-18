@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce3cb249-a224-45c0-81a4-8fc76b80c4d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/impl/ShowLibraryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/service/ShowLibraryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/util/ConsoleUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/util/MenuUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderList/src/main/java/ua/com/alevel/config/OrderListConfigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderList/src/main/java/ua/com/alevel/impl/OrderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderList/src/main/java/ua/com/alevel/util/ListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit_4_string/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../unit_4_string/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit_4_string/StringLibrary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../unit_4_string/StringLibrary/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit_4_string/StringLibrary/src/main/java/ua/com/alevel/StringReverseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../unit_4_string/StringLibrary/src/main/java/ua/com/alevel/StringReverseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit_4_string/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../unit_4_string/run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../unit_6_exceptions/run.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../unit_6_exceptions/run.bat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1rKczhbnKxkjKck1YwflkJYuggQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application/src/main/java/ua/com/alevel/util" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.com.alevel.util" />
+      <recent name="ua.com.alevel.impl" />
+      <recent name="ua.com.alevel.config" />
+      <recent name="ua.com.alevel" />
+      <recent name="ua.com.alevel.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Nix(my projects)\unit_7_collections\Application\src\main\java\ua\com\alevel\util" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3cb249-a224-45c0-81a4-8fc76b80c4d0" name="Default Changelist" comment="" />
+      <created>1618728486210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618728486210</updated>
+      <workItem from="1618728492025" duration="1380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1618729806424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1618729806424" />
+    <state x="342" y="215" key="new project wizard" timestamp="1618728551311">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1618728551311" />
+  </component>
+</project>
