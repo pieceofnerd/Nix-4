@@ -1,0 +1,5 @@
+/.idea/
+*./target/
+/Application/dependency-reduced-pom.xml
+/MathSet/target/
+/Application/target/
