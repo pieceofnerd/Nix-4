@@ -1,0 +1,6 @@
+/.idea/
+*/target/
+/Books/target/
+*.iml
+/Menu/target/
+./Menu/dependency-reduced-pom.xml
