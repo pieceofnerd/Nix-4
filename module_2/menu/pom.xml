@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>module_2</artifactId>
+        <groupId>ua.com.alevel</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>menu</artifactId>
+
+    <dependencies>
+        <!--Our module Date Formatter-->
+        <dependency>
+            <groupId>ua.com.alevel</groupId>
+            <artifactId>formater</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--Our module Finding unique names-->
+        <dependency>
+            <groupId>ua.com.alevel</groupId>
+            <artifactId>find-first-unique-name</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--Our module finding brief path-->
+        <dependency>
+            <groupId>ua.com.alevel</groupId>
+            <artifactId>path-between-cities</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+<build>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+            <!-- Attach the shade goal into the package phase -->
+            <execution>
+                <phase>package</phase>
+                <goals>
+                    <goal>shade</goal>
+                </goals>
+                <configuration>
+                    <transformers>
+                        <transformer
+                                implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                            <mainClass>ua.com.alevel.Application</mainClass>
+                        </transformer>
+                    </transformers>
+                </configuration>
+            </execution>
+        </executions>
+    </plugin>
+</plugins>
+</build>
+
+</project>
