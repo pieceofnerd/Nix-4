@@ -605,3 +605,16 @@
 2021-04-04 06:20:06 INFO  AuthorServiceImpl:35 - Deleting book is started
 2021-04-04 06:20:06 INFO  AuthorServiceImpl:37 - Deleting book is ended
 2021-04-04 06:20:06 DEBUG AuthorServiceImpl:42 - finding book by id acc26305-fa36-4aee-a277-5ea8ea3749a2
+2021-04-25 12:34:34 INFO  AuthorServiceImpl:17 - Creating book is started
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:23 - Creating book is ended
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:17 - Creating book is started
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:23 - Creating book is ended
+2021-04-25 12:34:36 DEBUG AuthorServiceImpl:42 - finding book by id 729a117c-c72a-473f-91fd-d4876bc4f696
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:28 - Updating book is started
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:30 - Updating book is ended
+2021-04-25 12:34:36 DEBUG AuthorServiceImpl:42 - finding book by id 729a117c-c72a-473f-91fd-d4876bc4f696
+2021-04-25 12:34:36 DEBUG AuthorServiceImpl:42 - finding book by id 729a117c-c72a-473f-91fd-d4876bc4f696
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:54 - finding all books
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:35 - Deleting book is started
+2021-04-25 12:34:36 INFO  AuthorServiceImpl:37 - Deleting book is ended
+2021-04-25 12:34:36 DEBUG AuthorServiceImpl:42 - finding book by id 729a117c-c72a-473f-91fd-d4876bc4f696

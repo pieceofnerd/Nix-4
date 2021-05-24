@@ -1,32 +1,37 @@
 package ua.com.alevel.db;
 
 import ua.com.alevel.entity.*;
+import ua.com.alevel.util.ParserCSV;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
-public class DBInMemory {
-    private static DBInMemory db;
+public class DBInFile {
+    private static DBInFile db;
+    private final String file = "Books/src/main/java/ua/com/alevel/db/Book.csv";
+    private static final List<String[]> bookTableHeader = ParserCSV.prepareCVSData("Id Book, Book Title, Genre,\n");
+
     private Set<Book> books;
     private Set<Author> authors;
 
-    private DBInMemory() {
+    private DBInFile() {
         this.books = new HashSet<>();
         this.authors = new HashSet<>();
     }
 
-    public static DBInMemory getInstance() {
+    public static DBInFile getInstance() {
         if (db == null) {
-            db = new DBInMemory();
+            db = new DBInFile();
         }
         return db;
     }
 
-    public void createBook(Book book) {
-        book.setId(generateId(UUID.randomUUID().toString(), Book.class));
-        books.add(book);
+    public void createBook(Fiction book) {
+        book.setId(generateId((String) UUID.randomUUID().toString().subSequence(0, 5), Book.class));
+        ParserCSV.writeDataCSVBook(bookTableHeader, book, file);
     }
 
     public <B extends Book> void updateBook(B book) {
@@ -48,16 +53,17 @@ public class DBInMemory {
     }
 
     public <B extends Book> B findBookById(String id) {
-        Book currentBook = books
-                .stream()
-                .filter(b -> b.getId().equals(id))
-                .findFirst()
-                .orElse(null);
 
-        if (currentBook == null) {
+        List<String[]> books = ParserCSV.readDataCSVBook(file);
+        String[] currentBookId = books.stream()
+                .filter(b -> b[0].equals(id))
+                .findFirst()
+                .get();
+
+        if (currentBookId == null) {
             System.out.println("\n There is no book with such title in our library");
         }
-        return (B) currentBook;
+        return
     }
 
     public <B extends Book> B findBookByTitle(String bookTitle) {

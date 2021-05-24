@@ -1,16 +1,15 @@
 package ua.com.alevel;
 
 public class StringReverseUtil {
+
     public static String reverse(String src) {
 
         String stringWithoutDoubleSpaces = src
                 .replaceAll("  +", " ")
                 .trim();
-
         String[] words = stringWithoutDoubleSpaces.split(" ");
         String[] reverseWords = new String[words.length];
         String result;
-
         for (int j = 0; j < words.length; ++j) {
             char[] inputString = words[j].toCharArray();
             char[] outputString = new char[inputString.length];
@@ -19,7 +18,6 @@ public class StringReverseUtil {
             }
             reverseWords[j] = String.valueOf(outputString);
         }
-
         result = String.join(" ", reverseWords);
         return result;
     }
@@ -38,11 +36,10 @@ public class StringReverseUtil {
             reverseSubstring[i] = substring[substringWithoutDoubleSpaces.length() - i - 1];
         }
         String resultReverseSubstring = String.valueOf(reverseSubstring);
-        if(resultReverseSubstring.isEmpty()){
+        if (resultReverseSubstring.isEmpty()) {
             System.out.println("There is no substring in a source string");
         }
         result = stringWithoutDoubleSpaces.replace(substringWithoutDoubleSpaces, resultReverseSubstring);
-
         return result;
     }
 
