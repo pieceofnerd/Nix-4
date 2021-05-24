@@ -1,0 +1,1089 @@
+2021-05-22 15:18:50 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:18:50 INFO  JDBCConnector:21 - Location Kharkov was created
+2021-05-22 15:31:18 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:31:44 INFO  JDBCConnector:21 - Location Kharkov was created
+2021-05-22 15:34:48 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:34:49 INFO  JDBCConnector:21 - Location Kharkov was created
+2021-05-22 15:37:33 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:38:33 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:38:33 INFO  JDBCConnector:21 - Location Kharkov was created
+2021-05-22 15:40:02 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:41:24 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 15:41:24 INFO  JDBCConnector:21 - Location Kharkov was created
+2021-05-22 17:31:12 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:32:08 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:39:34 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:40:21 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:43:40 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:45:41 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:52:15 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:52:16 INFO  JDBCConnector:22 - Location Ismail was created
+2021-05-22 17:53:14 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:53:39 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 17:53:40 INFO  JDBCConnector:24 - Route from ua.com.alevel.model.Location@7e9131d5 to ua.com.alevel.model.Location@2e1d27ba was created
+2021-05-22 18:11:28 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 18:11:28 INFO  ProblemDao:22 - Problem was created. Path from Kharkov to Ismail
+2021-05-22 18:26:52 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 18:26:52 INFO  SolutionDao:22 - Solutions of 1 problem is 40 was created
+2021-05-22 19:21:08 ERROR ApplicationMainImpl:59 - Incorrect format
+2021-05-22 19:23:55 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 19:23:56 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 19:37:04 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 19:37:04 ERROR LocationDao:25 - SQL exception
+2021-05-22 19:37:56 ERROR RouteDao:28 - SQL exception
+2021-05-22 19:38:03 ERROR RouteDao:28 - SQL exception
+2021-05-22 19:38:08 INFO  LocationDao:22 - Location 2 636 was created
+2021-05-22 19:38:14 ERROR ApplicationMainImpl:50 - Incorrect data format
+2021-05-22 19:47:44 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 19:47:44 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 19:47:44 ERROR RouteDao:28 - SQL exception
+2021-05-22 19:47:44 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:01:16 INFO  LocationDao:22 - Location 2 636 was created
+2021-05-22 20:01:16 ERROR ApplicationMainImpl:50 - Incorrect data format
+2021-05-22 20:02:18 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:02:19 ERROR LocationDao:25 - SQL exception
+2021-05-22 20:02:30 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:02:40 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:04:14 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:04:51 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:04:51 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:04:52 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:04:52 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:05:35 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:05:35 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:05:35 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:05:35 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:05:36 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:05:36 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:05:36 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:05:36 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:05:36 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:05:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:08:16 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:08:17 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:08:17 INFO  RouteDao:24 - Route from Черновцы to Путивль was created
+2021-05-22 20:13:23 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:13:23 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:15:54 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:15:54 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:15:55 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:16:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:19:26 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:19:26 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:19:26 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:20:41 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:20:41 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:20:42 INFO  RouteDao:24 - Route from Черновцы to Путивль was created
+2021-05-22 20:30:25 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:30:25 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:31:00 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:32:17 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:32:18 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:32:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:32:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:34:09 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:34:10 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:34:25 INFO  RouteDao:24 - Route from Черновцы to Путивль was created
+2021-05-22 20:34:42 INFO  RouteDao:24 - Route from Черновцы to Острог was created
+2021-05-22 20:35:33 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:35:33 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:35:39 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:35:41 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:26 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:38:26 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:38:26 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:38:26 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:38:26 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:38:26 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:38:27 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:38:27 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:38:27 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:27 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:38:28 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:38:28 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:40:03 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:40:03 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:40:04 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:40:04 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:04 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:05 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:05 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:40:05 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:40:05 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:41:18 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:41:18 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:41:19 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Черновцы to Путивль was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Черновцы to Острог was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Путивль to Черновцы was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Путивль to Острог was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Путивль to Каменец-Подольский was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Путивль to Измаил was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Острог to Черновцы was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Острог to Путивль was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Острог to Белая Церковь was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Белая Церковь to Острог was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Белая Церковь to Александрия was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Каменец-Подольский to Путивль was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Каменец-Подольский to Александрия was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Каменец-Подольский to Дубно was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Александрия to Белая Церковь was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Александрия to Каменец-Подольский was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Александрия to Дубно was created
+2021-05-22 20:41:19 INFO  RouteDao:24 - Route from Дубно to Каменец-Подольский was created
+2021-05-22 20:41:20 INFO  RouteDao:24 - Route from Дубно to Александрия was created
+2021-05-22 20:41:20 INFO  RouteDao:24 - Route from Дубно to Измаил was created
+2021-05-22 20:41:20 INFO  RouteDao:24 - Route from Измаил to Путивль was created
+2021-05-22 20:41:20 INFO  RouteDao:24 - Route from Измаил to Дубно was created
+2021-05-22 20:41:20 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:41:20 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 20:43:03 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 20:43:03 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 20:57:01 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:01 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:06 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:07 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:07 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:57:07 ERROR RouteDao:28 - SQL exception
+2021-05-22 20:59:48 ERROR ProblemDao:26 - SQL exception
+2021-05-22 20:59:48 ERROR ProblemDao:26 - SQL exception
+2021-05-22 21:00:35 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 21:00:35 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:35 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 ERROR RouteDao:28 - SQL exception
+2021-05-22 21:00:36 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 21:00:36 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Измаил
+2021-05-22 21:02:33 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Черновцы was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Путивль was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Острог was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Белая Церковь was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Каменец-Подольский was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Александрия was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Дубно was created
+2021-05-22 21:02:33 INFO  LocationDao:22 - Location Измаил was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Черновцы to Путивль was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Черновцы to Острог was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Путивль to Черновцы was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Путивль to Острог was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Путивль to Каменец-Подольский was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Путивль to Измаил was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Острог to Черновцы was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Острог to Путивль was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Острог to Белая Церковь was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Белая Церковь to Острог was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Белая Церковь to Александрия was created
+2021-05-22 21:02:33 INFO  RouteDao:24 - Route from Каменец-Подольский to Путивль was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Каменец-Подольский to Александрия was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Каменец-Подольский to Дубно was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Александрия to Белая Церковь was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Александрия to Каменец-Подольский was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Александрия to Дубно was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Дубно to Каменец-Подольский was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Дубно to Александрия was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Дубно to Измаил was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Измаил to Путивль was created
+2021-05-22 21:02:34 INFO  RouteDao:24 - Route from Измаил to Дубно was created
+2021-05-22 21:02:34 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Александрия
+2021-05-22 21:02:34 INFO  ProblemDao:22 - Problem was created. Path from Черновцы to Измаил
+2021-05-23 19:26:41 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 19:26:58 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 19:47:55 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 19:49:02 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 19:50:13 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 19:52:57 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:07:09 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:12:03 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:25:53 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:26:44 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:29:29 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:34:01 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:35:16 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:40:40 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:41:31 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:43:11 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 20:45:52 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:01:55 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:04:40 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:07:00 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:13:04 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:16:05 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-23 21:27:24 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:00:35 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:03:48 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:04:30 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:11:34 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:13:02 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:13:53 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:15:12 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 00:18:34 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:17:19 INFO  JDBCConnector:25 - Connect to url {}jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:17:22 INFO  SolutionDao:22 - Solutions of 10 problem is 632 was created
+2021-05-24 01:17:23 INFO  SolutionDao:22 - Solutions of 11 problem is 1655 was created
+2021-05-24 01:18:29 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:18:31 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:18:33 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:48:06 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:07 INFO  RouteDao:26 - Route from Черновцы to Путивль was created
+2021-05-24 01:48:07 INFO  RouteDao:26 - Route from Черновцы to Острог was created
+2021-05-24 01:48:07 INFO  RouteDao:26 - Route from Путивль to Черновцы was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Путивль to Острог was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Путивль to Измаил was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Острог to Черновцы was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Острог to Путивль was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Острог to Белая Церковь was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Белая Церковь to Острог was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Белая Церковь to Александрия was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Александрия to Белая Церковь was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Александрия to Дубно was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Дубно to Александрия was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Дубно to Измаил was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Измаил to Путивль was created
+2021-05-24 01:48:08 INFO  RouteDao:26 - Route from Измаил to Дубно was created
+2021-05-24 01:48:08 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 01:48:09 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 01:48:11 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:48:12 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:48:13 INFO  SolutionDao:22 - Solutions of 12 problem is 632 was created
+2021-05-24 01:48:14 INFO  SolutionDao:22 - Solutions of 13 problem is 1655 was created
+2021-05-24 01:48:47 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:48:47 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:47 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:47 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:47 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:48 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:48 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:48 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:48 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Черновцы to Путивль was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Черновцы to Острог was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Путивль to Черновцы was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Путивль to Острог was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Путивль to Измаил was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Острог to Черновцы was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Острог to Путивль was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Острог to Белая Церковь was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Белая Церковь to Острог was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Белая Церковь to Александрия was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 01:48:48 INFO  RouteDao:26 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Александрия to Белая Церковь was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Александрия to Дубно was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Дубно to Александрия was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Дубно to Измаил was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Измаил to Путивль was created
+2021-05-24 01:48:49 INFO  RouteDao:26 - Route from Измаил to Дубно was created
+2021-05-24 01:48:49 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 01:50:39 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:51:17 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:05 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:52:19 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:19 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:19 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 ERROR LocationDao:27 - SQL exception
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Черновцы to Путивль was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Черновцы to Острог was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Путивль to Черновцы was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Путивль to Острог was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Путивль to Измаил was created
+2021-05-24 01:52:20 INFO  RouteDao:26 - Route from Острог to Черновцы was created
+2021-05-24 01:54:13 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 01:54:19 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 01:56:01 ERROR JDBCConnector:28 - SQL exception
+2021-05-24 01:56:57 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 01:56:58 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 01:56:58 ERROR ProblemDao:29 - SQL exception
+2021-05-24 01:56:58 ERROR ProblemDao:29 - SQL exception
+2021-05-24 01:57:03 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:57:07 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:57:10 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:57:13 ERROR SolutionDao:26 - SQL exception
+2021-05-24 01:57:15 INFO  SolutionDao:22 - Solutions of 14 problem is 632 was created
+2021-05-24 01:57:18 INFO  SolutionDao:22 - Solutions of 15 problem is 1655 was created
+2021-05-24 01:57:53 ERROR JDBCConnector:28 - SQL exception
+2021-05-24 01:59:13 ERROR JDBCConnector:28 - SQL exception
+2021-05-24 02:01:31 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:01:31 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:01:32 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:01:32 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:03:12 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:03:16 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:03:17 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:03:17 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:05:30 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:05:30 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:05:31 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:05:31 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:06:45 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:06:45 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:06:45 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:06:45 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:07:50 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:07:50 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:07:53 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:07:54 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:07:55 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:07:55 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:07:56 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:07:57 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:08:00 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:08:00 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:08:00 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:08:58 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:08:58 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:09:01 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:09:01 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:09:02 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:09:03 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:09:06 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:09:07 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:09:13 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:09:58 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:09:59 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:12:04 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:12:05 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:13:30 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:13:30 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:13:30 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:14:17 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:14:17 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 02:16:24 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:16:24 ERROR ProblemDao:29 - SQL exception
+2021-05-24 02:16:50 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 02:16:50 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 02:16:50 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 02:16:50 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 02:16:50 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 02:16:50 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 02:16:51 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 02:16:51 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 02:16:51 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 16:30:38 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 16:30:38 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 16:32:01 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Черновцы is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Путивль is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Острог is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Белая Церковь is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Каменец-Подольский is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Александрия is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Дубно is already existed
+2021-05-24 16:32:02 WARN  ApplicationMainImpl:43 - Location Измаил is already existed
+2021-05-24 16:34:22 ERROR ProblemDao:29 - SQL exception
+2021-05-24 16:34:57 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 16:34:57 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 16:35:01 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:35:03 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:35:05 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:35:07 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:35:09 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:35:10 ERROR SolutionDao:26 - SQL exception
+2021-05-24 16:52:35 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:52:35 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 16:52:35 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 16:52:35 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 16:52:35 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 16:52:36 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 16:52:36 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 16:52:36 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 16:52:36 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 16:54:26 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 16:54:26 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 16:55:54 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 16:55:54 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 16:57:25 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 16:57:25 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:00:36 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:00:36 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:02:51 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:02:51 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:04:24 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:04:25 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:06:24 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:06:24 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:06:28 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:06:30 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:06:32 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:06:34 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:06:37 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:06:39 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:07:08 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:07:09 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:09:40 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:13 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:10:14 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:10:19 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:21 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:23 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:26 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:29 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:10:30 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:12:04 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:12:04 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:15:53 ERROR SolutionDao:30 - SQL exception
+2021-05-24 17:16:33 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:16:33 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:16:37 WARN  ApplicationMainImpl:25 - Solution of 10 problem has already created
+2021-05-24 17:16:40 WARN  ApplicationMainImpl:25 - Solution of 11 problem has already created
+2021-05-24 17:16:42 WARN  ApplicationMainImpl:25 - Solution of 12 problem has already created
+2021-05-24 17:16:44 WARN  ApplicationMainImpl:25 - Solution of 13 problem has already created
+2021-05-24 17:16:46 WARN  ApplicationMainImpl:25 - Solution of 14 problem has already created
+2021-05-24 17:16:47 WARN  ApplicationMainImpl:25 - Solution of 15 problem has already created
+2021-05-24 17:18:22 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 17:18:22 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:22 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 ERROR RouteDao:30 - SQL exception
+2021-05-24 17:18:23 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 17:18:23 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 17:20:23 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:20:23 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 17:20:23 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 17:20:23 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 17:20:23 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 17:20:23 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 17:20:24 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 17:20:24 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 17:20:24 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Черновцы to Путивль was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Черновцы to Острог was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Путивль to Черновцы was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Путивль to Острог was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Путивль to Измаил was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Острог to Черновцы was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Острог to Путивль was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Острог to Белая Церковь was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Белая Церковь to Острог was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Белая Церковь to Александрия was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 17:20:24 INFO  RouteDao:26 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Александрия to Белая Церковь was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Александрия to Дубно was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Дубно to Александрия was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Дубно to Измаил was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Измаил to Путивль was created
+2021-05-24 17:20:25 INFO  RouteDao:26 - Route from Измаил to Дубно was created
+2021-05-24 17:20:25 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 17:20:25 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 17:20:27 INFO  SolutionDao:26 - Solutions of 18 problem is 632 was created
+2021-05-24 17:20:28 INFO  SolutionDao:26 - Solutions of 19 problem is 1655 was created
+2021-05-24 17:20:51 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Черновцы is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Путивль is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Острог is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Белая Церковь is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Каменец-Подольский is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Александрия is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Дубно is already existed
+2021-05-24 17:20:51 WARN  ApplicationMainImpl:42 - Location Измаил is already existed
+2021-05-24 17:20:53 WARN  ApplicationMainImpl:25 - Solution of 18 problem has already created
+2021-05-24 17:20:54 WARN  ApplicationMainImpl:25 - Solution of 19 problem has already created
+2021-05-24 17:31:30 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 17:31:31 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 17:31:31 INFO  RouteDao:26 - Route from Черновцы to Путивль was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Черновцы to Острог was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Путивль to Черновцы was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Путивль to Острог was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Путивль to Измаил was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Острог to Черновцы was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Острог to Путивль was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Острог to Белая Церковь was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Белая Церковь to Острог was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Белая Церковь to Александрия was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Александрия to Белая Церковь was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Александрия to Дубно was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Дубно to Александрия was created
+2021-05-24 17:31:32 INFO  RouteDao:26 - Route from Дубно to Измаил was created
+2021-05-24 17:31:33 INFO  RouteDao:26 - Route from Измаил to Путивль was created
+2021-05-24 17:31:33 INFO  RouteDao:26 - Route from Измаил to Дубно was created
+2021-05-24 17:31:33 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 17:31:33 INFO  ProblemDao:25 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 17:31:34 INFO  SolutionDao:26 - Solutions of 20 problem is 632 was created
+2021-05-24 17:31:35 INFO  SolutionDao:26 - Solutions of 21 problem is 1655 was created
+2021-05-24 17:31:58 INFO  JDBCConnector:25 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Черновцы is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Путивль is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Острог is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Белая Церковь is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Каменец-Подольский is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Александрия is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Дубно is already existed
+2021-05-24 17:31:59 WARN  ApplicationMainImpl:44 - Location Измаил is already existed
+2021-05-24 17:32:01 WARN  ApplicationMainImpl:25 - Solution of 20 problem has already created
+2021-05-24 17:32:02 WARN  ApplicationMainImpl:25 - Solution of 21 problem has already created
+2021-05-24 18:10:18 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Черновцы is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Путивль is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Острог is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Белая Церковь is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Каменец-Подольский is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Александрия is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Дубно is already existed
+2021-05-24 18:10:19 WARN  ApplicationMainImpl:44 - Location Измаил is already existed
+2021-05-24 18:10:22 WARN  SolutionServiceImpl:23 - Solution of 20 problem has already created
+2021-05-24 18:10:23 WARN  SolutionServiceImpl:23 - Solution of 21 problem has already created
+2021-05-24 18:23:04 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Черновцы is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Путивль is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Острог is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Белая Церковь is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Каменец-Подольский is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Александрия is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Дубно is already existed
+2021-05-24 18:23:05 WARN  ApplicationMainImpl:44 - Location Измаил is already existed
+2021-05-24 18:23:07 WARN  SolutionServiceImpl:23 - Solution of 20 problem has already created
+2021-05-24 18:23:08 WARN  SolutionServiceImpl:23 - Solution of 21 problem has already created
+2021-05-24 18:24:02 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 18:24:03 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Черновцы to Путивль was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Черновцы to Острог was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Путивль to Черновцы was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Путивль to Острог was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Путивль to Измаил was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Острог to Черновцы was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Острог to Путивль was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Острог to Белая Церковь was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Белая Церковь to Острог was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Белая Церковь to Александрия was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:04 INFO  RouteDao:25 - Route from Александрия to Белая Церковь was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Александрия to Дубно was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Дубно to Александрия was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Дубно to Измаил was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Измаил to Путивль was created
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 ERROR RouteDao:88 - SQL exception
+2021-05-24 18:24:05 INFO  RouteDao:25 - Route from Измаил to Дубно was created
+2021-05-24 18:24:05 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:24:05 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:24:05 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 18:24:05 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:24:05 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:24:05 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 18:24:06 INFO  SolutionDao:24 - Solutions of 22 problem is 632 was created
+2021-05-24 18:24:07 INFO  SolutionDao:24 - Solutions of 23 problem is 1655 was created
+2021-05-24 18:26:03 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:26:04 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 18:26:04 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 18:26:05 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Черновцы to Путивль was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Черновцы to Острог was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Путивль to Черновцы was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Путивль to Острог was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Путивль to Измаил was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Острог to Черновцы was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Острог to Путивль was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Острог to Белая Церковь was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Белая Церковь to Острог was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Белая Церковь to Александрия was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Александрия to Белая Церковь was created
+2021-05-24 18:26:05 INFO  RouteDao:25 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Александрия to Дубно was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Дубно to Александрия was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Дубно to Измаил was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Измаил to Путивль was created
+2021-05-24 18:26:06 INFO  RouteDao:25 - Route from Измаил to Дубно was created
+2021-05-24 18:26:06 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:26:06 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:26:06 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 18:26:06 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:26:06 ERROR ProblemDao:86 - SQL exception
+2021-05-24 18:26:06 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 18:26:07 INFO  SolutionDao:24 - Solutions of 24 problem is 632 was created
+2021-05-24 18:26:08 INFO  SolutionDao:24 - Solutions of 25 problem is 1655 was created
+2021-05-24 18:27:23 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Черновцы was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Путивль was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Острог was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Белая Церковь was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Каменец-Подольский was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Александрия was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Дубно was created
+2021-05-24 18:27:24 INFO  LocationDao:24 - Location Измаил was created
+2021-05-24 18:27:24 INFO  RouteDao:25 - Route from Черновцы to Путивль was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Черновцы to Острог was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Путивль to Черновцы was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Путивль to Острог was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Путивль to Каменец-Подольский was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Путивль to Измаил was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Острог to Черновцы was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Острог to Путивль was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Острог to Белая Церковь was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Белая Церковь to Острог was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Белая Церковь to Александрия was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Каменец-Подольский to Путивль was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Каменец-Подольский to Александрия was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Каменец-Подольский to Дубно was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Александрия to Белая Церковь was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Александрия to Каменец-Подольский was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Александрия to Дубно was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Дубно to Каменец-Подольский was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Дубно to Александрия was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Дубно to Измаил was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Измаил to Путивль was created
+2021-05-24 18:27:25 INFO  RouteDao:25 - Route from Измаил to Дубно was created
+2021-05-24 18:27:25 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Александрия
+2021-05-24 18:27:26 INFO  ProblemDao:24 - Problem was created. Path from Черновцы to Измаил
+2021-05-24 18:27:27 INFO  SolutionDao:24 - Solutions of 26 problem is 632 was created
+2021-05-24 18:27:28 INFO  SolutionDao:24 - Solutions of 27 problem is 1655 was created
+2021-05-24 18:28:08 INFO  JDBCConnector:24 - Connect to url jdbc:mysql://localhost:3306/transport_task
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Черновцы is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Путивль is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Острог is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Белая Церковь is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Каменец-Подольский is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Александрия is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Дубно is already existed
+2021-05-24 18:28:08 WARN  ApplicationMainImpl:44 - Location Измаил is already existed
+2021-05-24 18:28:10 WARN  SolutionServiceImpl:23 - Solution of 26 problem has already created
+2021-05-24 18:28:11 WARN  SolutionServiceImpl:23 - Solution of 27 problem has already created

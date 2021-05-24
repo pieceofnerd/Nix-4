@@ -1,0 +1,5 @@
+/.idea/
+*.iml
+
+/transport_task/target/
+/transport_task/dependency-reduced-pom.xml
