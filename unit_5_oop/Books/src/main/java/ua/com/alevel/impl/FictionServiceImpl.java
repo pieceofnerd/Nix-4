@@ -4,12 +4,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ua.com.alevel.entity.Fiction;
 import ua.com.alevel.service.BookService;
-import ua.com.alevel.db.DBInFile;
+import ua.com.alevel.db.DBInMemory;
 
 import java.util.Set;
 
 public class FictionServiceImpl implements BookService<Fiction> {
-    private final DBInFile db = DBInFile.getInstance();
+    private final DBInMemory db = DBInMemory.getInstance();
     private final static Logger logger = LoggerFactory.getLogger(AuthorServiceImpl.class.getName());
 
     @Override
@@ -17,8 +17,7 @@ public class FictionServiceImpl implements BookService<Fiction> {
         logger.info("Creating book is started");
         if (db.existBookByTitle(fiction.getTitle())) {
             logger.error("Book with this title  already exists");
-            System.out.println("\nBook with such title already exist\n");
-            return;
+            throw new RuntimeException("user already exist");
         }
         db.createBook(fiction);
         logger.info("Creating book is ended");

@@ -17,7 +17,6 @@
         <maven.compiler.target>11</maven.compiler.target>
         <commons.collections.version>3.2.2</commons.collections.version>
         <junit.version>4.13.1</junit.version>
-        <opencsv.version>5.2</opencsv.version>
         <junit.jupiter.version>5.7.0</junit.jupiter.version>
     </properties>
 
@@ -56,12 +55,6 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
-        </dependency>
-        <!-- OPENCSV -->
-        <dependency>
-            <groupId>com.opencsv</groupId>
-            <artifactId>opencsv</artifactId>
-            <version>${opencsv.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
         <dependency>

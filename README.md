@@ -1,7 +1,9 @@
-• Файл исходного кода таблиц находится в файле tables.sql в папке с ресурсами
+• Для запуска программы следует запустить module_2\menu\src\main\java\ua\com\alevel\Application.java
 
-• Все данные о маршрутах, локациях, проблемах находятся в файле input.txt в папке с ресурсами, откуда парсятся в базу данных
+• После запуска программы, в консоли отобразится результат выполнение всех модулей
 
-• Файл конфигурации базы данных находится в jdbc.properties в папке с ресурсами 
+• Посмотреть файл с именами можно тут module_2\find-first-unique-name\src\main\resources\name.json
 
-• Логи находятся в корневой папке logs
+• Посмотреть файл с датами можно тут module_2\formater\src\main\resources\date.json
+
+• Посмотреть файл с городами можно тут module_2\path-between-cities\src\main\java\ua\com\alevel\input.txt

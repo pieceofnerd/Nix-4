@@ -2,7 +2,7 @@ package ua.com.alevel.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ua.com.alevel.db.DBInFile;
+import ua.com.alevel.db.DBInMemory;
 import ua.com.alevel.entity.Author;
 import ua.com.alevel.service.AuthorService;
 
@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class AuthorServiceImpl implements AuthorService {
     private final static Logger logger = LoggerFactory.getLogger(AuthorServiceImpl.class.getName());
-    private DBInFile db = DBInFile.getInstance();
+    private DBInMemory db = DBInMemory.getInstance();
 
     @Override
     public void create(Author author) {

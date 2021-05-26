@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.junit.runners.MethodSorters;
-import ua.com.alevel.db.DBInFile;
+import ua.com.alevel.db.DBInMemory;
 import ua.com.alevel.entity.Author;
 import ua.com.alevel.entity.Fiction;
 import ua.com.alevel.service.AuthorService;
@@ -28,7 +28,7 @@ class FictionServiceImplTest {
     private static final BookService<Fiction> fictionService = new FictionServiceImpl();
     private static final AuthorService authorService = new AuthorServiceImpl();
     private static final BookAuthorService bookAuthorService = new BookAuthorsServiceImpl();
-    private static final DBInFile db= DBInFile.getInstance();
+    private static final DBInMemory db= DBInMemory.getInstance();
 
 
     @BeforeAll

@@ -2,6 +2,6 @@
 echo MAVEN BUILDING:
 call mvn clean install
 echo -----------------------UNIT 9-------------------------
-cd Menu
-call java -jar target/Menu-1.0-SNAPSHOT.jar
+cd ./Application
+call java -jar target/Application-1.0-SNAPSHOT.jar
 echo -------------------------------------------------------
