@@ -28,6 +28,7 @@ public class CSVServiceImpl<T> implements BaseCSVService<T> {
     @Override
     public List<T> mapAll(StructureCSV structure, Class<T> requiredClass) {
         List<T> listCSVObjects = new ArrayList<>();
+
         List<String[]> data = structure.getData();
         for (String[] array : data) {
             T object;
@@ -35,11 +36,11 @@ public class CSVServiceImpl<T> implements BaseCSVService<T> {
                 Constructor<T> constructor = requiredClass.getConstructor();
                 object = constructor.newInstance();
             } catch (NoSuchMethodException e) {
-                logger.error("There is no standard constructor ");
-                throw new RuntimeException();
+                logger.error("There is no  a standard constructor ");
+                throw new RuntimeException(e);
             } catch (InvocationTargetException | IllegalAccessException | InstantiationException e) {
-                logger.error("Problem occurs during  creating object ");
-                throw new RuntimeException();
+                logger.error("Problem occurs during creating an object ");
+                throw new RuntimeException(e);
             }
 
 
@@ -69,7 +70,7 @@ public class CSVServiceImpl<T> implements BaseCSVService<T> {
                         }
                     } catch (IllegalAccessException e) {
                         logger.error("Something goes wrong during parsing annotation");
-                        throw new RuntimeException();
+                        throw new RuntimeException(e);
                     }
                 }
 

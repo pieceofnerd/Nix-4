@@ -1,4 +1,4 @@
-• Для запуска программы следует запустить unit_11_reflection/application-properties/src/main/java/ua/com/alevel/Application.java
+• Для запуска программы следует запустить unit_12_csv_parser/csv-parser/src/main/java/ua/com/alevel/Application.java
 
-• Посмотреть файл properties можно тут unit_11_reflection/application-properties/src/main/resources/app.properties
+• Посмотреть файл testData.csv можно тут unit_12_csv_parser/csv-parser/src/main/resources/testData.csv
 

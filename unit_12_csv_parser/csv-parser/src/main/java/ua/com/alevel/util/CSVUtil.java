@@ -26,9 +26,8 @@ public class CSVUtil {
 
     public static void outputElement(String element) {
         if (Objects.nonNull(element)) {
-            System.out.println("Element is: " + element);
+            logger.info("Element is: " + element);
         } else {
-            System.out.println("You inputted incorrect parameters");
             logger.warn("Incorrect parameters were inputted");
         }
     }
