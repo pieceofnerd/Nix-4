@@ -1,0 +1,6 @@
+2021-06-19 14:41:59 ERROR ReadFromConsole:25 - Could not find a file {}resources\userdata.txt
+2021-06-19 14:42:51 ERROR ReadFromConsole:25 - Could not find a file {}userdata.txt
+2021-06-19 14:43:33 ERROR ReadFromConsole:25 - Could not find a file {}src/main/resources/userdata.txt
+2021-06-19 14:43:52 ERROR ReadFromConsole:25 - Could not find a file {}src\main\resources\userdata.txt
+2021-06-19 14:45:06 ERROR ConsoleUtil:20 - Problem occurs during working with file
+2021-06-19 14:50:29 ERROR ConsoleUtil:21 - Problem occurs during working with file
