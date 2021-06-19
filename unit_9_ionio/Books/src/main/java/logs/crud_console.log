@@ -1,0 +1,21 @@
+2021-05-14 17:17:00 INFO  AuthorServiceImpl:19 - Creating author is started
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:21 - Creating author is ended
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:55 - finding all authors
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:48 - finding author by id fbf6bb9c-f24b-43d8-8178-a95c1c5f847c
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:55 - finding all authors
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:18 - Creating book is started
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:24 - Creating book is ended
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:16 - Start to add a book to the author
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:19 - Success add a book to the author
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:49 - finding book by title The lord of rings
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:61 - finding author by books ID 1ed99f5b-6518-4ed4-99f6-bfeb142a8f1d
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:55 - finding all authors
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:48 - finding author by id fbf6bb9c-f24b-43d8-8178-a95c1c5f847c
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:26 - Updating author is started
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:32 - Updating author is ended
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:48 - finding author by id fbf6bb9c-f24b-43d8-8178-a95c1c5f847c
+2021-05-14 17:17:02 DEBUG AuthorServiceImpl:48 - finding author by id fbf6bb9c-f24b-43d8-8178-a95c1c5f847c
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:37 - Deleting author is started
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:43 - Deleting author is ended
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:55 - finding all authors
+2021-05-14 17:17:02 INFO  AuthorServiceImpl:55 - finding all authors
