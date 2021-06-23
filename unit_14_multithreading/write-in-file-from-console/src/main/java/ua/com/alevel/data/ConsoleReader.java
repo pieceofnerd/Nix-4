@@ -13,6 +13,8 @@ public class ConsoleReaderFileWriter {
 
     private static final String exitWord = "quit";
 
+    private volatile String input;
+
     private final FileWriter fileWriter;
 
     private final File file;
@@ -25,9 +27,6 @@ public class ConsoleReaderFileWriter {
     }
 
     public void read() {
-
-         StringBuilder input = new StringBuilder();
-
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
             while (true) {
                 if(exit(String.valueOf(input))){
