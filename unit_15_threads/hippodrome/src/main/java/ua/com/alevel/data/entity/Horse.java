@@ -61,4 +61,15 @@ public class Horse implements Runnable {
     public int getId() {
         return id;
     }
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        if (!super.equals(object)) return false;
+        Horse horse = (Horse) object;
+        return id == horse.id;
+    }
+
+    public int hashCode() {
+        return java.util.Objects.hash(super.hashCode(), id);
+    }
 }

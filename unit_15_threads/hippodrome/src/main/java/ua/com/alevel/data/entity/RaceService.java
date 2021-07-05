@@ -32,7 +32,7 @@ public class RaceService {
         }
     }
 
-    public void prepareRace() {
+    public synchronized void prepareRace() {
         positionCounter.set(1);
         phaser.bulkRegister(horses.size());
         int start = phaser.getPhase();
