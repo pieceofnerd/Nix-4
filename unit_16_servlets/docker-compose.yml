@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  web:
-    build:
-      context: .
-    container_name: 1_jeebox_tomcat
-    ports:
-      - 8082:8080
