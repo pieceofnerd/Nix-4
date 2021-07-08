@@ -5,26 +5,28 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 
-
-public class ConsoleReader {
+public class ConsoleReader implements Runnable {
 
     private static final Logger logger = LoggerFactory.getLogger(ConsoleReader.class);
 
-    private static final String exitWord = "quit";
+    private static final String EXIT_WORD = "quit";
 
-    private volatile StringBuffer input;
+    private final Message message;
 
-    private volatile boolean exit;
+    public ConsoleReader(Message message) {
+        this.message = message;
+    }
 
-
-    public void read() {
+    @Override
+    public void run() {
         try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
             String input;
-            while (!(input = bufferedReader.readLine()).equals(exitWord)) {
-                this.input.append(input);
+            while (!(input = bufferedReader.readLine()).equalsIgnoreCase(EXIT_WORD)) {
+                message.setText(input);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Problem occurred during bufferReader work", e);
         }
+        message.makeThrowOff();
     }
 }
