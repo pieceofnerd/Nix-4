@@ -8,26 +8,15 @@ import java.io.File;
 
 public class FileWriter implements Runnable {
 
-    private String previousText;
+    private volatile String input;
 
-    private String currentText;
-
-    private boolean exit;
-
-    private final File file;
+    private volatile boolean exit;
 
     private static final Logger logger = LoggerFactory.getLogger(FileWriter.class);
 
-    public FileWriter(File file) {
-        this.file = file;
-        this.exit = false;
-        this.currentText = "";
-        this.previousText = "";
-    }
 
-
-    public void setCurrentText(String currentText) {
-        this.currentText = currentText;
+    public void setCurrentText(String input) {
+        this.input=input;
     }
 
     public void setExit(boolean exit) {
@@ -36,22 +25,14 @@ public class FileWriter implements Runnable {
 
     @Override
     public void run() {
-        while (!exit) {
-            try {
-                Thread.sleep(1000);
-                write();
-            } catch (InterruptedException e) {
-                logger.warn(" thread {} was interrupted", Thread.currentThread().getName());
-                break;
+        try(RandomAccessFile rfa = new RandomAccessFile(file, "rw")){
+            while(!exit){
+                if(!previousText.equals(currentText)){
+
+                }
             }
         }
     }
 
-    private void write() {
-        if (!previousText.equals(currentText)) {
-            ReadWriteUtil.write(file, currentText);
-            this.previousText = currentText;
-        }
-    }
 
 }
